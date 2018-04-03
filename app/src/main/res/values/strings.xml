@@ -10,7 +10,7 @@
     <string name="phone">手机号:</string>
     <string name="surepasswd">确认密码:</string>
     <string name="name">用户名:</string>
-    <string name="nametips">请输入用户名</string>
+    <string name="nametips">请输入用户名/手机号</string>
     <string name="passedtips">请输入密码</string>
 
     <string name="repairshopname">汽修厂名称:</string>

@@ -11,8 +11,9 @@
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="180sp"
+            android:layout_marginTop="450sp"
             android:hint="@string/nametips"
+            android:imeOptions="actionDone"
             android:singleLine="true"
             android:textColor="@drawable/touchevent" />
 
@@ -34,6 +35,7 @@
             android:layout_alignParentRight="true"
             android:layout_below="@id/name_et"
             android:hint="@string/passedtips"
+            android:imeOptions="actionDone"
             android:password="true"
             android:singleLine="true"
             android:textColor="@drawable/touchevent" />

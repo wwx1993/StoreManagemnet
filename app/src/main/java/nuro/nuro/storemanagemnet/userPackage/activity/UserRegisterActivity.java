@@ -44,14 +44,12 @@ public class UserRegisterActivity extends Activity implements View.OnClickListen
 
     private void initView() {
         register_name_et = (EditText) findViewById(R.id.register_name_et);
-        register_number_et = (EditText) findViewById(R.id.register_number_et);
         register_phone_et = (EditText) findViewById(R.id.register_phone_et);
         register_passwd_et = (EditText) findViewById(R.id.register_passwd_et);
         register_surepasswd_et = (EditText) findViewById(R.id.register_surepasswd_et);
         repair_shopname_et = (EditText) findViewById(R.id.repair_shopname_et);
         repair_shoparea_et = (EditText) findViewById(R.id.repair_shoparea_et);
         repair_shopaddress_et = (EditText) findViewById(R.id.repair_shopaddress_et);
-        address_scope_et = (EditText) findViewById(R.id.address_scope_et);
         repair_scope_et = (EditText) findViewById(R.id.repair_scope_et);
         submit = (Button) findViewById(R.id.submit);
 
