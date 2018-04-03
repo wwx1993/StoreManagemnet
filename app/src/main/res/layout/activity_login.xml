@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="180sp"
+            android:hint="@string/nametips"
+            android:singleLine="true"
+            android:textColor="@drawable/touchevent" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/name_et"
+            android:layout_toLeftOf="@id/name_et"
+            android:paddingTop="7sp"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+
+        <EditText
+            android:id="@+id/passwd_et"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/name_et"
+            android:hint="@string/passedtips"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@drawable/touchevent" />
+
+        <TextView
+            android:id="@+id/passwd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/passwd_et"
+            android:layout_toLeftOf="@id/passwd_et"
+            android:paddingTop="6dip"
+            android:text="@string/passwd"
+            android:textColor="@android:color/black"
+            android:textSize="20dip"
+            android:layout_alignLeft="@+id/name_tv"
+            android:layout_alignStart="@+id/name_tv" />
+
+        <Button
+            android:id="@+id/login_bt"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/passwd_et"
+            android:layout_below="@id/passwd_et"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/register_bt"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwd_et"
+            android:layout_toRightOf="@id/login_bt"
+            android:text="@string/register" />
+
+</RelativeLayout>
+
